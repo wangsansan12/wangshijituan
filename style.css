@@ -1,0 +1,73 @@
+body{
+	height: 100%;
+	width: 100%;
+	background: url(./Pic/beijing2.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-size：100%;
+	background-attachment: fixed
+}
+a{
+	text-decoration: none;
+}
+#guanyu{
+	
+}
+.WWang{
+	margin-top: 0rem;
+	position:fixed;
+	background-color: white;
+	margin-left: 10px;
+	width: 92%;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+@keyframes shanganniu{
+	from{color: #000000;}
+	to{color: #cdcdcd;}
+}
+.Wang{
+	width: 200px;
+	margin-left: 30px;
+	float: left;
+}
+.shanganniuA{
+	margin-left: 30px;
+	margin-top: 30px;
+	animation-name: shanganniu;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	float: left;
+}
+.shanganniuP{
+	font-size: 20px;
+}
+@-webkit-keyframes DingDuan{
+	from{
+		
+		margin-top: 10px;
+	}
+	to{
+		margin-top: 30px;
+	}
+}
+#Dingduan{
+	position:fixed;
+	margin-left: 94.8%;
+	-webkit-animation-name: 'DingDuan';
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count:10000;
+}
+#WangShiName{
+	color: #999999;
+	font-size: 70px;
+	margin-left: 10%;
+}
+#WangShiJieShao{
+	font-size: 20px;
+	margin-left: 7%;
+}
+#baigong{
+	margin-left: 75px;
+	width: 60%;
+}

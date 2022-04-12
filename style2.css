@@ -1,0 +1,46 @@
+body{
+	background: url(./Pic/beijing1.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed
+}
+.yonghumima{
+	margin:50px auto 10px;
+	height: 48px;
+	width: 212px;
+	display: flex;
+}
+.two{
+	font-size: 40px;
+}
+.three{
+	font-size: 10px;
+}
+.four{
+	display: flex;
+	color: #a4a4a4;
+	justify-content: center;
+}
+.four1:link,.four1:visited,.four1:active{
+	color: #a4a4a4;
+	text-decoration:none;
+}
+.four1:hover{
+	color: #101010;
+}
+.five{
+	margin-top: 10px;
+	color: #a4a4a4;
+	display: flex;
+	justify-content: center;
+}
+@keyframes shanganniu{
+	from{color: #000000;}
+	to{color: #cdcdcd;}
+}
+.six{
+	animation-name: shanganniu;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+}
